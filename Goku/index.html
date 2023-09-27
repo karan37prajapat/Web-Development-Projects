@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&family=Montserrat:wght@700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Goku</title>
+</head>
+<body>
+  <section class="home ">
+  <div class="form_container">
+    <i class="fa-solid fa-xmark form_close"></i>
+    <div class="form login_form">
+      <form action="#">
+        <h2>Login</h2>
+        <div class="input_box">
+          <input type="email" placeholder="Enter your email" required/>
+          <i class="fa-regular fa-envelope email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Enter your Password" required/>
+          <i class="fa-solid fa-lock password"></i>
+          <i class="fa-regular fa-eye-slash pw_hide"></i>
+        </div>
+        <div class="option_field">
+          <span class="checkbox">
+            <input type="checkbox" id="check"> 
+            <label for="check">Remember me</label>
+          </span>
+          <a href="#" class="forgot_pw">Forgot password?</a>
+        </div>
+
+        <button class="sub_button-login">Login Now</button>
+
+        <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+      </form>
+    </div>
+    <!-- Sign up form  -->
+    <div class="form signup_form">
+      <form action="#">
+        <h2>Signup</h2>
+        <div class="input_box">
+          <input type="email" placeholder="Enter your email" required/>
+          <i class="fa-regular fa-envelope email"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Create Password" required/>
+          <i class="fa-solid fa-lock password"></i>
+          <i class="fa-regular fa-eye-slash pw_hide"></i>
+        </div>
+        <div class="input_box">
+          <input type="password" placeholder="Confirm Password" required/>
+          <i class="fa-solid fa-lock password"></i>
+          <i class="fa-regular fa-eye-slash pw_hide"></i>
+        </div>
+      
+
+        <button class="sub_button-signup">Signup Now</button>
+
+        <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+      </form>
+    </div>
+  </div>
+  </section>
+
+  <div class="innerSid">
+    <div class="list">
+      <i class="fa-solid fa-house"></i>
+      <div class="list1-innertext">Home</div>
+    </div>
+    <div class="list">
+      <i class="fa-solid fa-arrow-trend-up"></i>
+      <div class="list1-innertext">Trending</div>
+    </div>
+    <div class="list">
+      <i class="fa-regular fa-clock"></i>
+      <div class="list1-innertext">Latest</div>
+    </div>
+    <div class="line"></div>
+    <div class="explore list2">Browse</div>
+    <div class="music list2">     <i class="fa-solid fa-music"></i><a href="#music" class="list2-innerText">Music</a>             </div>
+    <div class=" list2">          <i class="fa-solid fa-book"></i><a href="#educational" class="list2-innerText">Educational</a>  </div>
+    <div class=" list2">          <i class="fa-solid fa-podcast"></i><a  href="#podcasts"class="list2-innerText">Podcasts</a>     </div>
+    <div class="fashion list2">   <i class="fa-solid fa-shirt"></i><div class="list2-innerText">Fashion</div>                     </div>
+    <div class="bhajan list2">    <i class="fa-solid fa-om"></i><div class="list2-innerText">Bhajan</div>                         </div>
+    <div class="movie list2">     <i class="fa-solid fa-clapperboard"></i><div class="list2-innerText">Movies</div>               </div>
+    <div class="live list2">      <i class="fa-solid fa-video"></i><div class="list2-innerText">Live</div>                        </div>
+    <div class="gaming list2">    <i class="fa-solid fa-headset"></i><div class="list2-innerText">Gaming</div>                    </div>
+    <div class="news list2">      <i class="fa-regular fa-newspaper"></i><div class="list2-innerText">News</div>                  </div>
+    <div class="sports list2">    <i class="fa-regular fa-futbol"></i><div class="list2-innerText">Sports</div>                   </div>
+    <div class="vlogs list2">     <i class="fa-solid fa-camera"></i><div class="list2-innerText">Vlogs</div>                      </div>
+    <div class="line"></div>
+    <div class="settings list2">  <i class="fa-solid fa-gear"></i><div class="list2-innerText">Settings</div>                     </div>
+    <div class="help list2">      <i class="fa-solid fa-circle-info"></i><div class="list2-innerText">Help</div>                  </div>
+    <div class=" list2">          <i class="fa-solid fa-comments-dollar"></i><div class="list2-innerText send-feedback ">Send Feedback</div></div>
+  </div>
+
+  <div class="navBar">
+    <div class="sideBar">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="logo">
+      <img src="/Assets/Logo/images-fotor-bg-remover-20230914145440-fotor-2023091820154.png" alt="Goku">
+    </div>
+    <a id ="goku" href="#" style="font-family: 'Montserrat', sans-serif;">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      Goku          </a>
+    <div class="searchBtn">
+      <div class="row">
+       <input type="text" placeholder="Search Anything" id="search" autocomplete="off">
+       <button id="btn-search"> <i class="fa-solid fa-magnifying-glass glass"></i> </button>
+      </div>
+    </div>
+    <div class="toggle-button">
+      <input type="checkbox" id="darkmod-toggle"/>
+      <label for="darkmod-toggle">
+      <?xml version="1.0" encoding="utf-8"?>
+      <svg class="sun-ki-photo" fill="#000000" viewBox="0 0 35 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 9.25c-3.728 0-6.75 3.022-6.75 6.75s3.022 6.75 6.75 6.75c3.728 0 6.75-3.022 6.75-6.75v0c-0.005-3.726-3.024-6.745-6.75-6.75h-0zM16 21.25c-2.899 0-5.25-2.351-5.25-5.25s2.351-5.25 5.25-5.25c2.899 0 5.25 2.351 5.25 5.25v0c-0.004 2.898-2.352 5.246-5.25 5.25h-0zM22.848 9.897c0 0 0 0 0.001 0 0.207 0 0.395-0.084 0.531-0.22l5.168-5.168c0.136-0.136 0.219-0.323 0.219-0.53 0-0.415-0.336-0.751-0.751-0.751-0.208 0-0.395 0.084-0.531 0.22v0l-5.168 5.168c-0.136 0.136-0.22 0.323-0.22 0.53 0 0.414 0.336 0.75 0.75 0.75 0 0 0.001 0 0.001 0h-0zM23.379 22.322c-0.136-0.136-0.324-0.22-0.531-0.22-0.415 0-0.751 0.336-0.751 0.751 0 0.207 0.084 0.395 0.22 0.531l5.152 5.152c0.136 0.136 0.324 0.22 0.531 0.22 0.415 0 0.751-0.336 0.751-0.751 0-0.207-0.084-0.395-0.22-0.531v0zM8.621 9.678c0.135 0.131 0.319 0.212 0.523 0.212 0.414 0 0.75-0.336 0.75-0.75 0-0.203-0.081-0.388-0.212-0.523l0 0-5.151-5.152c-0.136-0.14-0.327-0.227-0.538-0.227-0.414 0-0.75 0.336-0.75 0.75 0 0.211 0.087 0.401 0.227 0.537l0 0zM16 24.934c-0.414 0-0.75 0.336-0.75 0.75v0 4.307c0 0.414 0.336 0.75 0.75 0.75s0.75-0.336 0.75-0.75v0-4.307c-0-0.414-0.336-0.75-0.75-0.75v0zM16 7.058c0.414-0 0.75-0.336 0.75-0.75v0-4.308c0-0.414-0.336-0.75-0.75-0.75s-0.75 0.336-0.75 0.75v0 4.308c0 0.414 0.336 0.75 0.75 0.75v0zM29.996 15.25h-4.309c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h4.309c0.414 0 0.75-0.336 0.75-0.75s-0.336-0.75-0.75-0.75v0zM7.063 16c-0-0.414-0.336-0.75-0.75-0.75h-4.308c-0.414 0-0.75 0.336-0.75 0.75s0.336 0.75 0.75 0.75v0h4.308c0.414-0 0.75-0.336 0.75-0.75v0zM8.621 22.322l-5.151 5.154c-0.131 0.135-0.212 0.319-0.212 0.523 0 0.414 0.336 0.75 0.75 0.75 0.203 0 0.388-0.081 0.523-0.212l-0 0 5.151-5.154c0.14-0.136 0.227-0.327 0.227-0.538 0-0.414-0.336-0.75-0.75-0.75-0.211 0-0.401 0.087-0.538 0.227l-0 0zM20.4 24.664c-0.116-0.273-0.382-0.46-0.692-0.46-0.414 0-0.75 0.336-0.75 0.75 0 0.102 0.021 0.2 0.058 0.289l-0.002-0.005 0.436 1.049c0.116 0.274 0.383 0.462 0.693 0.463h0c0 0 0.001 0 0.001 0 0.414 0 0.749-0.336 0.749-0.749 0-0.104-0.021-0.203-0.059-0.293l0.002 0.005zM11.601 7.337c0.116 0.273 0.382 0.461 0.692 0.461 0.414 0 0.75-0.336 0.75-0.75 0-0.103-0.021-0.201-0.058-0.29l0.002 0.005-0.436-1.050c-0.116-0.274-0.382-0.462-0.692-0.462-0.414 0-0.75 0.336-0.75 0.75 0 0.104 0.021 0.202 0.059 0.292l-0.002-0.005zM25.24 12.99l1.047-0.434c0.274-0.116 0.463-0.382 0.463-0.693 0-0.414-0.336-0.75-0.75-0.75-0.104 0-0.202 0.021-0.292 0.059l0.005-0.002-1.047 0.434c-0.274 0.116-0.463 0.382-0.463 0.693 0 0.414 0.336 0.75 0.75 0.75 0 0 0 0 0 0h-0c0.104-0 0.202-0.021 0.292-0.059l-0.005 0.002zM6.765 19.018l-1.052 0.436c-0.272 0.117-0.46 0.382-0.46 0.692 0 0.414 0.336 0.75 0.75 0.75 0.102 0 0.2-0.020 0.288-0.057l-0.005 0.002 1.052-0.436c0.276-0.115 0.466-0.383 0.466-0.695 0-0.414-0.336-0.75-0.75-0.75-0.105 0-0.204 0.021-0.295 0.060l0.005-0.002zM24.664 20.4l1.049 0.436c0.084 0.036 0.182 0.057 0.285 0.057 0.001 0 0.002 0 0.002 0h-0c0 0 0 0 0 0 0.414 0 0.75-0.336 0.75-0.75 0-0.311-0.189-0.578-0.459-0.691l-0.005-0.002-1.049-0.436c-0.084-0.035-0.182-0.056-0.284-0.056-0.414 0-0.75 0.336-0.75 0.75 0 0.31 0.188 0.576 0.456 0.69l0.005 0.002zM7.337 11.601l-1.050-0.436c-0.085-0.036-0.184-0.057-0.287-0.057-0.414 0-0.75 0.336-0.75 0.75 0 0.31 0.189 0.577 0.458 0.691l0.005 0.002 1.050 0.436c0.084 0.036 0.182 0.056 0.285 0.056 0.414 0 0.75-0.336 0.75-0.75 0-0.31-0.188-0.575-0.456-0.69l-0.005-0.002zM19.424 7.745c0.085 0.036 0.184 0.056 0.287 0.057h0c0 0 0.001 0 0.001 0 0.31 0 0.577-0.189 0.69-0.458l0.002-0.005 0.436-1.052c0.036-0.085 0.057-0.184 0.057-0.287 0-0.414-0.336-0.75-0.75-0.75-0.311 0-0.578 0.189-0.692 0.458l-0.002 0.005-0.436 1.052c-0.036 0.085-0.057 0.183-0.057 0.287 0 0.311 0.189 0.578 0.458 0.692l0.005 0.002zM12.584 24.26c-0.085-0.036-0.184-0.057-0.287-0.057-0.311 0-0.578 0.189-0.692 0.458l-0.002 0.005-0.434 1.047c-0.036 0.085-0.057 0.184-0.057 0.287 0 0.414 0.336 0.75 0.75 0.75 0.311 0 0.578-0.189 0.691-0.458l0.002-0.005 0.434-1.047c0.036-0.085 0.057-0.183 0.057-0.287 0-0.311-0.189-0.578-0.458-0.692l-0.005-0.002z"></path>
+      </svg>
+      <?xml version="1.0" encoding="utf-8"?>
+      <svg class="moon-ki-photo"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 21.8a9.796 9.796 0 0 1-1.245-19.513l1.286-.163-.843.984a8.285 8.285 0 0 0 8.519 13.383l1.252-.347-.696 1.096A9.755 9.755 0 0 1 12 21.8zM9.647 3.526a8.796 8.796 0 1 0 9.031 14.196 9.048 9.048 0 0 1-1.178.078A9.293 9.293 0 0 1 9.647 3.526z"/><path fill="none" d="M0 0h24v24H0z"/>
+      </svg>
+      </label>
+    </div>
+    <div id="form-open" class="btn-1 "><button id="login-button"  href="#"><span>Log in</span></button></div>
+  </div>
+  
+  <div id="main">
+    <section class="carousel">
+           <input type="radio" name="slider" id="s1">
+           <input type="radio" name="slider" id="s2">
+           <input type="radio" name="slider" id="s3" checked>
+           <input type="radio" name="slider" id="s4">
+           <input type="radio" name="slider" id="s5">
+
+        <label for="s1" id="slide1">
+          <img src="/Assets/Slider/1.jpg" height="100%" width="100%">
+        </label>
+
+        <label for="s2" id="slide2">
+          <img src="/Assets/Slider/2.jpg" height="100%" width="100%">
+        </label>
+
+        <label for="s3" id="slide3">
+          <img src="/Assets/Slider/3.jpg" height="100%" width="100%">
+        </label>
+
+        <label for="s4" id="slide4">
+          <img src="/Assets/Slider/4.jpg" height="100%" width="100%">
+        </label>
+
+        <label for="s5" id="slide5">
+          <img src="/Assets/Slider/2.jpg" height="100%" width="100%">
+        </label>
+
+    </section>
+
+    <div class="all-cards">
+      <h3>Picks</h3>
+      <div class="picks display-cards container-1line-card">
+        <div class="cards">
+          <img src="#"class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+             <div class="description-innerText">
+              Welcome to the World of Programming 
+             </div>
+             <div class="creator-name">
+              Emily Clarke
+             </div>
+             <div class="upload-time-views">
+              2 days ago - 2k Views
+             </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Autobots assemble
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img  src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Viral</h3>
+      <div class="viral display-cards container-1line-card">
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#"class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt=""class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt=""class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 id="music">Music</h3>
+      <div class="display-cards container-2line-card">
+        <div class="cards">
+          <img src="#" alt=""class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div> 
+         <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div> 
+         <div class="cards">
+          <img src="#" alt=""class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div> 
+         <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img class="creator-picture" src="#"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+         <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img class="creator-picture" src="#"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+         <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img class="creator-picture" src="#"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+         <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img class="creator-picture" src="#"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+         <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img class="creator-picture" src="#"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 >Educational</h3>
+      <div class=" display-cards container-2line-card">
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <!-- <div class="subsribers-count"></div> -->
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Podcasts</h3>
+      <div class="display-cards container-2line-card">
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Fashion</h3>
+      <div class="display-cards container-2line-card">
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>Bhajan</h3>
+      <div class="display-cards container-2line-card">
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards">
+          <img src="#" alt="" class="card-image">
+          <div class="inside-card">
+            <img src="#" class="creator-picture"></img>
+            <div class="description">
+              <div class="description-innerText">
+                Welcome to the World of Programming 
+               </div>
+               <div class="creator-name">
+                Emily Clarke
+               </div>
+               <div class="upload-time-views">
+                2 days ago - 2k Views
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="terms-conditions">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="copyright">
+        Copyright &copy; 2023 Goku. All Rights Reserved.
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
